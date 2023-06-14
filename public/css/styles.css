@@ -89,11 +89,7 @@ input[type="text"]:focus {
   opacity: 1;
 }
 
-/* footer {
+footer {
   text-align: center;
   margin-top: 10px;
-} */
-.footer{
-  position: fixed;
-  bottom: 0;
 }

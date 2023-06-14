@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Todo List</title>
-</head>
-<body>
+<%- include("header") -%>
     <div class="container">
         <div class="box" id="heading">
             <h1> <%= listTitle %></h1>
@@ -23,9 +15,6 @@
                     <button type="submit" name="list" value=<%=listTitle %>>+</button>
                 </form>
         </div>
-        <div class="footer">
-            <i>Copyright@2023 Tanvir Badsha.</i>
-        </div>
-    </div>
-</body>
-</html>
+
+        <%- include("footer") -%>
+        
